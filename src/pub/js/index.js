@@ -18,7 +18,7 @@ const myUrl              = document.getElementById('url');
 
   myId.textContent = me.myInfo.id;
 
-  var url = "localhost/" + "?room=" + searchParams.get('room') + "&key=" + searchParams.get('key');
+  var url = "localhost:1234/sub/" + "?room=" + searchParams.get('room') + "&key=" + searchParams.get('key') + "&id=" + me.myInfo.id;
   myUrl.textContent = url;
 
   listButton.onclick = () => {
