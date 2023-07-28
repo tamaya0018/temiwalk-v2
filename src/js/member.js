@@ -12,6 +12,11 @@ const memberPrototype = {
     this.myInfo = myInfo;
     this.myRoom = room;
   },
+
+  leaveRoom: async function () {
+    const leaveRoom = await this.myRoom.leave(this.myInfo);
+    console.log('leave');
+  },
 };
 
 export function Member(roomName) {

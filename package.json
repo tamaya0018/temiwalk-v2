@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html ./src/pub/index.html ./src/sub/index.html"
+    "dev": "parcel ./src/index.html ./src/pub/index.html ./src/sub/index.html ./src/queue/index.html"
   },
   "author": "",
   "license": "ISC",
